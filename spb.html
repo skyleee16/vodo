@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lorem</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <style>
+        body {
+            opacity: 0;
+            -webkit-transition: .1s;
+            -o-transition: .1s;
+            transition: .1s;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="styles/jquery-ui.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="js/jquery311.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+            <!-- <img src="img/logo.svg" alt="Логотип" class="logo" loading="lazy"> -->
+            <div class="logoTitle">Lorem</div>
+            <div class="regionSelect">
+                <p>Ваш регион:</p>
+                <div class="regionList">
+                    <span class="active">Москва</span>
+                    <div class="after"></div>
+                    <ul>
+                        <li><a href="spb.html">Екатеринбург</a></li>
+                        <li class="active"><span>Москва</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="triangleFilter">
+        <div class="wrap">
+            <div class="triangleInstruction">
+                <div class="triangleInstructionHd">Как устроен рейтинг</div>
+                <div class="triangleInstructionInfo">Мы оцениваем компании по трем параметрам: сроки, качество и
+                    стоимость. Когда круг в центре, они учтены в равных пропорциях. Если передвинуть круг в сторону
+                    и нажать <span>«Показать оптимальные варианты»</span>, рейтинг изменится в соответствии с вашими
+                    пожеланиями.</div>
+            </div>
+        </div>
+    </div>
+    <div class="mainRating">
+        <div class="wrap">
+            <h1 class="blkHd" id="rating" name="rating">Рейтинг организаций по поверке счетчиков воды в Москве –
+                отзывы и цены</h1>
+            <table class="ratingTable verify_water_meters">
+                <thead>
+                    <tr>
+                        <th class="tbLogo">Логотип</th>
+                        <th class="tbName">Название компании</th>
+                        <th colspan="4">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="4">Оценка</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbRate1">Итоговая</td>
+                                        <td class="tbRate2">Качественно</td>
+                                        <td class="tbRate3">Быстро</td>
+                                        <td class="tbRate4">Дешево</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </th>
+                        <th colspan="2">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="2">Цена</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbPrice1">Заявленная</td>
+                                        <td class="tbPrice2">В отзывах клиентов</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </th>
+                        <th class="tbPrice3">Честная цена</th>
+                        <th class="tbAttest">Аттестат аккредитации</th>
+                        <th class="tbDate">Дата последнего внесения в Аршин</th>
+                        <th class="tbRequestCount">Оставлено заявок</th>
+                        <th class="tbRequest">Оставить заявку</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tbLogo">
+                            <a href="gorodskoy-tsentr-ucheta-i-ekonomii-resursov-gtsuier">
+                                <img loading="lazy" class="webpImg" src="" title="ООО ГЦУиЭР" alt="">
+                            </a>
+                        </td>
+                        <td class="tbName">
+                            <a href="gorodskoy-tsentr-ucheta-i-ekonomii-resursov-gtsuier">
+                                Городской Центр Учета и Экономии Ресурсов (ГЦУиЭР)
+                            </a>
+                        </td>
+                        <td class="tbRate1 green"><span>4,7</span></td>
+                        <td class="tbRate2">4,6</td>
+                        <td class="tbRate3">4,6</td>
+                        <td class="tbRate4">5</td>
+                        <td class="tbPrice1">
+                            <b class="utmYaPrice" data-utmYaPrice="450" data-utmPhone="+7 (499) 455-45-36">800</b>
+                        </td>
+                        <td class="tbPrice2">
+                            <b class="ytmYaRecalcPrice" data-utmYaPrice="450" data-mainPrice="800"
+                                data-utmPhone="+7 (499) 455-45-36">825</b>
+                        </td>
+                        <td class="tbPrice3 green">
+                            <b>Хорошо</b> Цена в отзывах соответствует заявленной
+                        </td>
+                        <td class="tbAttest green">Есть</td>
+                        <td class="tbDate">19.10.2023</td>
+                        <td class="tbRequestCount">87 874</td>
+                        <td class="tbRequest">
+                            <span class="btncolor leadFormBtn notSet" data-service="verify_water_meters" data-id="304"
+                                data-isP="1">
+                                Заказать поверку
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="linkingBlk">
+        <div class="wrap">
+            <div class="innerVpk">
+                <div class="blkHd">Проводим поверку счетчиков воды во всех округах Москвы и районах Московской области
+                </div>
+                <ul class="linkingDistricts">
+                    <li class="first"><a href="tsena-poverki-schetchikov-vody-svao">СВАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-tsao">ЦАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-sao">САО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-vao">ВАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-yuvao">ЮВАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-yuao">ЮАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-yuzao">ЮЗАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-zao">ЗАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-szao">СЗАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-zelao">ЗелАО</a></li>
+                    <li><a href="tsena-poverki-schetchikov-vody-tao">ТАО</a></li>
+                    <li class="last"><a href="tsena-poverki-schetchikov-vody-nao">НАО</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="seoArticle" itemscope="" itemtype="http://schema.org/Article">
+        <meta itemprop="author" content="Интерактивный рейтинг компаний по обслуживанию счетчиков воды Водочет">
+        <meta itemscope="" itemprop="publisher"
+            content="Интерактивный рейтинг компаний по обслуживанию счетчиков воды Водочет">
+        <div itemscope="" itemprop="image" itemtype="http://schema.org/ImageObject">
+            <meta itemprop="image" content="https://vodochet.ru/ico200.jpg">
+            <meta itemprop="url" content="https://vodochet.ru/">
+        </div>
+        <div class="wrap">
+
+            <meta itemprop="description"
+                content="Поверка счетчиков воды в Москве – вся необходимая информация о деталях работы в отзывах бывших клиентов, формирующих независимый рейтинг служб метрологов. Ознакомьтесь со списком организаций, ценами и&#8230;">
+            <div itemprop="articleBody">
+                <p>Поверка счетчиков воды является важной процедурой для поддержания точности и надежности измерения потребления ресурсов. В Москве существует ряд организаций, предоставляющих услуги по поверке водосчетчиков. Рейтинг этих организаций формируется на основе трех параметров: скорости работы, стоимости услуг и качества обслуживания.</p>
+                <h2>Для составления рейтинга учитываются отзывы и оценки бывших клиентов. </h2>
+                <p>Важно отметить, что отсутствие своевременной поверки счетчиков воды может привести к увеличению платежей за потребление ресурсов. Поначалу вы будете платить сумму, рассчитанную на основе среднего показателя за последние полгода.</p>
+                <p>Однако в дальнейшем вам придется платить по норме с коэффициентом 1.5, что в два раза больше, чем по показаниям водосчетчика. Кроме того, в некоторых случаях может потребоваться замена счетчика воды.</p>
+                <h2>Цена на официальную поверку счетчиков воды в Москве</h2>
+                <p>Цена на официальную поверку счетчиков воды в Москве не регламентирована законодательством и определяется рынком метрологических служб. Стоимость поверки зависит от различных параметров, таких как тип проверки, вид процедуры, дальность выезда мастера, необходимость замены счетчика и других факторов. Однако, средняя цена на поверку счетчиков воды составляет примерно 1000 рублей.</p>
+                <h2>Бесплатная поверка счетчиков воды</h2>
+                <p>Бесплатная поверка счетчиков воды не предоставляется, однако для некоторых категорий граждан предусмотрены льготы, снижающие стоимость услуги. К таким категориям относятся ветераны Великой Отечественной войны, пенсионеры, инвалиды, малоимущие, многодетные семьи и жители муниципальных квартир. В разных регионах могут быть установлены другие категории граждан, имеющих право на льготную проверку счетчиков воды.</p>
+                <p id="nalichie_accreditacii" class="vnimanie">Проведение поверки водосчетчиков может осуществляться двумя методами: демонтажем счетчика и отправкой его в поверочную лабораторию или проведением проверки прямо на месте с помощью электронной поверочной установки. Выбор метода зависит от условий и требований клиента, а также от типа и модели счетчика.</p>
+                <p>Если у вас возникнут дополнительные вопросы или вам потребуется конкретная информация о поверке счетчиков воды в Москве, я готов помочь вам.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrap">
+            <!-- Copyright © 2017-2023<br><a href="mailto:info@vodochet.ru">info@vodochet.ru</a> <br> Информация
+            размещенная на сайте не является публичной офертой -->
+        </div>
+    </footer>
+    <div class="fixheaderMenu">
+        <div class="fixheaderMenuClose"></div>
+    </div>
+    <div class="modalRequest" style="display:none;">
+        <div class="modalRequestHd">Оставить заявку в компанию <span class="modalRequestHdOrg"></span></div>
+    </div>
+
+    <script src="js/mainBabel.js?v=1.0"></script>
+    <script>"use strict";
+
+        function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+        function _instanceof(left, right) { if (right != null && typeof Symbol !== "undefined" && right[Symbol.hasInstance]) { return !!right[Symbol.hasInstance](left); } else { return left instanceof right; } }
+
+        function _classCallCheck(instance, Constructor) { if (!_instanceof(instance, Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+        function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+        function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+        function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+        $(function () {
+            var dGlobal;
+
+            var DragElement = /*#__PURE__*/function () {
+                //Points:
+                //|	1 |
+                //| | |
+                //2	| 3
+                function DragElement(selector) {
+                    var isShowDotsFlag = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+
+                    _classCallCheck(this, DragElement);
+
+                    _defineProperty(this, "dragEl", "#draggable");
+
+                    _defineProperty(this, "dragElWidth", 40);
+
+                    _defineProperty(this, "container", void 0);
+
+                    _defineProperty(this, "point1", new Point(0, 0));
+
+                    _defineProperty(this, "point2", new Point(0, 0));
+
+                    _defineProperty(this, "point3", new Point(0, 0));
+
+                    _defineProperty(this, "centerPoint", new Point(0, 0));
+
+                    _defineProperty(this, "lastPoint", new Point(0, 0));
+
+                    _defineProperty(this, "centerK", new Point(0, 0));
+
+                    _defineProperty(this, "centerB", new Point(0, 0));
+
+                    _defineProperty(this, "centerD", new Point(0, 0));
+
+                    _defineProperty(this, "tableBody", void 0);
+
+                    _defineProperty(this, "dragLineS", '');
+
+                    _defineProperty(this, "containerWidth", void 0);
+
+                    _defineProperty(this, "containerHeight", void 0);
+
+                    _defineProperty(this, "minLeftLine", -51);
+
+                    _defineProperty(this, "maxLeftLine", -21);
+
+                    _defineProperty(this, "maxLineDiff", 0);
+
+                    _defineProperty(this, "isShowDots", false);
+
+                    _defineProperty(this, "tableArray", '');
+
+                    _defineProperty(this, "beforeTriangle", 370);
+
+                    _defineProperty(this, "windowW", void 0);
+
+                    _defineProperty(this, "windowOldW", void 0);
+
+                    _defineProperty(this, "isReinit", false);
+
+                    _defineProperty(this, "reinitVal", 0);
+
+                    _defineProperty(this, "reinitCurrent", 0);
+
+                    dGlobal = this;
+                    this.container = selector;
+                    this.dragElWidth = $(this.dragEl).outerWidth();
+                    this.containerWidth = $(this.container).width() - this.dragElWidth;
+                    this.containerHeight = this.containerWidth * Math.sqrt(3) / 2;
+                    $(this.container).height(this.containerHeight + this.dragElWidth);
+                    this.point1.X = this.containerWidth / 2;
+                    this.point1.Y = 0;
+                    this.point2.X = 0;
+                    this.tableBody = $('.ratingTable > tbody');
+                    this.point2.Y = this.containerHeight;
+                    this.point3.X = this.containerWidth;
+                    this.point3.Y = this.containerHeight;
+                    this.centerPoint.X = this.containerWidth / 2;
+                    this.centerPoint.Y = this.containerHeight * 2 / 3;
+                    this.lastPoint.X = this.containerWidth / 2;
+                    this.lastPoint.Y = this.containerHeight * 2 / 3;
+                    this.maxLineDiff = Math.abs(this.maxLeftLine - this.minLeftLine);
+                    this.centerK = this.lineCenter(this.point2, this.point3);
+                    this.centerB = this.lineCenter(this.point1, this.point3);
+                    this.centerD = this.lineCenter(this.point1, this.point2);
+                    this.tableArray = ratingElements;
+                    this.windowW = $(window).width();
+                    this.windowOldW = this.windowW;
+                    /*$(this.container+'Inner').append('<div class="svgContainer"></div>');
+                    $(this.container).append('<div id="draggable" class="ui-widget-content"></div>');*/
+
+                    var svg = '<svg width="' + this.containerWidth + '" height="' + this.containerHeight + '">' + this.getTriangle(this.point1, this.point2, this.point3) + '</svg>';
+                    var linesDots = '';
+                    this.isShowDots = isShowDotsFlag;
+
+                    if (this.isShowDots) {
+                        linesDots = '<div class="linesDot linesDotK"></div><div class="linesDot linesDotD"></div><div class="linesDot linesDotB"></div>';
+                    }
+
+                    if ($('div').is('.dragLine') && this.windowW >= 768) {
+                        this.dragLineS = $('.dragLine');
+                    }
+
+                    $('.svgContainer').html(svg + linesDots);
+                    this.setXY(this.centerPoint);
+                    $(this.dragEl).draggable({
+                        //containment: "parent" ,
+                        //start:this.updateCounterStatus,
+                        drag: this.updateCounterStatus,
+                        stop: this.updateCounterStatus
+                    });
+                    $(this.container).click(function (e) {
+                        drg.updateCounterStatus({
+                            type: 'dragstop',
+                            point0: dGlobal.getClickPosition(e)
+                        });
+                    });
+
+                    if (this.windowW <= 1200) {
+                        this.beforeTriangle = 300;
+                    }
+
+                    $(window).resize(function () {
+                        dGlobal.windowW = $(window).width();
+
+                        if (dGlobal.windowOldW != dGlobal.windowW) {
+                            dGlobal.windowOldW = dGlobal.windowW;
+
+                            if (!dGlobal.isReinit) {
+                                dGlobal.isReinit = true;
+                                dGlobal.reinitVal++;
+                                setTimeout(function () {
+                                    dGlobal.reinitCurrent++;
+
+                                    if (dGlobal.reinitCurrent == dGlobal.reinitVal) {
+                                        dGlobal.reInit();
+                                    }
+                                }, 200);
+                            }
+                        }
+                    });
+                }
+
+                _createClass(DragElement, [{
+                    key: "reInit",
+                    value: function reInit() {
+                        this.windowW = $(window).width();
+                        this.beforeTriangle = 370;
+                        this.dragElWidth = $(this.dragEl).outerWidth();
+                        this.containerWidth = $(this.container).width() - this.dragElWidth;
+                        this.containerHeight = this.containerWidth * Math.sqrt(3) / 2;
+                        $(this.container).height(this.containerHeight + this.dragElWidth);
+                        this.point1.X = this.containerWidth / 2;
+                        this.point2.Y = this.containerHeight;
+                        this.point3.X = this.containerWidth;
+                        this.point3.Y = this.containerHeight;
+                        this.centerPoint.X = this.containerWidth / 2;
+                        this.centerPoint.Y = this.containerHeight * 2 / 3;
+                        this.lastPoint.X = this.containerWidth / 2;
+                        this.lastPoint.Y = this.containerHeight * 2 / 3;
+                        this.centerK = this.lineCenter(this.point2, this.point3);
+                        this.centerB = this.lineCenter(this.point1, this.point3);
+                        this.centerD = this.lineCenter(this.point1, this.point2);
+
+                        if ($('div').is('.dragLine') && this.windowW >= 768) {
+                            this.dragLineS = $('.dragLine');
+                        }
+
+                        if (this.windowW <= 1200) {
+                            this.beforeTriangle = 300;
+                        }
+
+                        this.updateCounterStatus({
+                            type: 'dragstop',
+                            point0: this.centerPoint
+                        });
+                        this.isReinit = false;
+                    }
+                }, {
+                    key: "getClickPosition",
+                    value: function getClickPosition(e) {
+                        var x = 0;
+                        var y = 0;
+
+                        if (!e) {
+                            var _e = window.event;
+                        }
+
+                        if (e.offsetX && e.offsetY) {
+                            x = e.offsetX - 20;
+                            y = e.offsetY - 20;
+                        }
+
+                        return new Point(x, y);
+                    }
+                }, {
+                    key: "setXY",
+                    value: function setXY(point) {
+                        $(this.dragEl).css('left', point.X);
+                        dGlobal.lastPoint.X = point.X;
+                        $(this.dragEl).css('top', point.Y);
+                        dGlobal.lastPoint.Y = point.Y;
+                    }
+                }, {
+                    key: "updateCounterStatus",
+                    value: function updateCounterStatus(params) {
+                        var x0, y0;
+                        var setPoint = false;
+
+                        if (!_instanceof(this, DragElement)) {
+                            x0 = parseFloat($(this).css('left'));
+                            y0 = parseFloat($(this).css('top'));
+                        } else {
+                            x0 = 0;
+                            y0 = 0;
+
+                            if (_typeof(params.point0) == 'object') {
+                                x0 = params.point0.X;
+                                y0 = params.point0.Y;
+                            }
+
+                            setPoint = true;
+                        }
+
+                        if (dGlobal.isInTriangle(dGlobal.point1, dGlobal.point2, dGlobal.point3, x0, y0)) {
+                            //console.log('мы в треугольнике');
+                            dGlobal.lastPoint.X = x0;
+                            dGlobal.lastPoint.Y = y0;
+
+                            if (setPoint) {
+                                dGlobal.setXY(dGlobal.lastPoint);
+                            }
+
+                            var kCross = dGlobal.cross(dGlobal.point2, dGlobal.point3, dGlobal.point1, dGlobal.lastPoint);
+                            kCross = kCross[1];
+                            var bCross = dGlobal.cross(dGlobal.point1, dGlobal.point3, dGlobal.point2, dGlobal.lastPoint);
+                            bCross = bCross[1];
+                            var dCross = dGlobal.cross(dGlobal.point1, dGlobal.point2, dGlobal.point3, dGlobal.lastPoint);
+                            dCross = dCross[1];
+
+                            if (dGlobal.isShowDots) {
+                                dGlobal.setLineDotes(kCross, bCross, dCross);
+                            } //сколько процентов составляет отрезок до точки от общей длины
+
+
+                            var kLineFactor = dGlobal.getLineLength(dGlobal.point1, dGlobal.lastPoint) / dGlobal.getLineLength(dGlobal.point1, kCross);
+                            var kAngleFactor = Math.cos(dGlobal.getDoubleAngle(dGlobal.point1, dGlobal.centerK, dGlobal.lastPoint));
+                            var bLineFactor = dGlobal.getLineLength(dGlobal.point2, dGlobal.lastPoint) / dGlobal.getLineLength(dGlobal.point2, bCross);
+                            var bAngleFactor = Math.cos(dGlobal.getDoubleAngle(dGlobal.point2, dGlobal.centerB, dGlobal.lastPoint));
+                            var dLineFactor = dGlobal.getLineLength(dGlobal.point3, dGlobal.lastPoint) / dGlobal.getLineLength(dGlobal.point3, dCross);
+                            var dAngleFactor = Math.cos(dGlobal.getDoubleAngle(dGlobal.point3, dGlobal.centerD, dGlobal.lastPoint));
+                            var kMainFactor = kLineFactor * kAngleFactor;
+                            var bMainFactor = bLineFactor * bAngleFactor;
+                            var dMainFactor = dLineFactor * dAngleFactor;
+                            /*$('.trinangleIndicateK').css('opacity',kMainFactor);
+                            $('.trinangleIndicateB').css('opacity',bMainFactor);
+                            $('.trinangleIndicateD').css('opacity',dMainFactor);*/
+
+                            $('.trinangleIndicateK span').width(Math.floor(kMainFactor * 100) + '%');
+                            $('.trinangleIndicateB span').width(Math.floor(bMainFactor * 100) + '%');
+                            $('.trinangleIndicateD span').width(Math.floor(dMainFactor * 100) + '%');
+
+                            if (dGlobal.dragLineS != '') {
+                                $(dGlobal.dragLineS[0]).find('.before').css('width', dGlobal.beforeTriangle + bMainFactor * 25);
+                                $(dGlobal.dragLineS[1]).find('.before').css('width', dGlobal.beforeTriangle + dMainFactor * 25);
+                                $(dGlobal.dragLineS[2]).find('.before').css('width', dGlobal.beforeTriangle + kMainFactor * 25);
+                                $(dGlobal.dragLineS[1]).css('opacity', .7 * dMainFactor + .3 + .2);
+                                $(dGlobal.dragLineS[2]).css('opacity', .7 * kMainFactor + .3 + .2);
+                                $(dGlobal.dragLineS[0]).css('opacity', .7 * bMainFactor + .3 + .2);
+                            }
+
+                            if (params.type == 'dragstop') {
+                                dGlobal.filterRating(kMainFactor, bMainFactor, dMainFactor);
+                            }
+                        } else {
+                            if (params.type == 'dragstop') {
+                                //dGlobal.setXY(dGlobal.lastPoint); 
+                                //console.log('мы вышли из треугольника');
+                                dGlobal.updateCounterStatus({ type: 'dragstop', point0: dGlobal.lastPoint });
+                            }
+                        }
+                    }
+                }, {
+                    key: "isInTriangle",
+                    value: function isInTriangle(point1, point2, point3, x0, y0) {
+                        var if1 = (point1.X - x0) * (point2.Y - point1.Y) - (point2.X - point1.X) * (point1.Y - y0);
+                        var if2 = (point2.X - x0) * (point3.Y - point2.Y) - (point3.X - point2.X) * (point2.Y - y0);
+                        var if3 = (point3.X - x0) * (point1.Y - point3.Y) - (point1.X - point3.X) * (point3.Y - y0);
+
+                        if (if1 < 0 && if2 < 0 && if3 < 0 || if1 > 0 && if2 > 0 && if3 > 0 || if1 == 0 || if2 == 0 || if3 == 0) {
+                            return true;
+                        }
+
+                        return false;
+                    }
+                }, {
+                    key: "getTriangle",
+                    value: function getTriangle(point1, point2, point3) {
+                        var fill = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 'rgba(0,0,0,0)';
+                        return '<polygon points="' + point1.X + ',' + point1.Y + ' ' + point2.X + ',' + point2.Y + ' ' + point3.X + ',' + point3.Y + '" fill="' + fill + '" stroke-width="0"/>';
+                    }
+                }, {
+                    key: "get3Triangles",
+                    value: function get3Triangles(point1, point2, point3, centerPoint) { }
+                }, {
+                    key: "getDoubleAngle",
+                    value: function getDoubleAngle(point1, point2, point3) {
+                        var radResult = Math.acos(((point1.X - point2.X) * (point1.X - point3.X) + (point1.Y - point2.Y) * (point1.Y - point3.Y)) / (Math.sqrt(Math.pow(point1.X - point2.X, 2) + Math.pow(point1.Y - point2.Y, 2)) * Math.sqrt(Math.pow(point1.X - point3.X, 2) + Math.pow(point1.Y - point3.Y, 2))));
+                        return radResult * 2;
+                        return radResult * 180 / Math.PI;
+                    }
+                }, {
+                    key: "setLineDotes",
+                    value: function setLineDotes(kCross, bCross, dCross) {
+                        $('.linesDotK').css('left', kCross.X);
+                        $('.linesDotK').css('top', kCross.Y);
+                        $('.linesDotB').css('left', bCross.X);
+                        $('.linesDotB').css('top', bCross.Y);
+                        $('.linesDotD').css('left', dCross.X);
+                        $('.linesDotD').css('top', dCross.Y);
+                    }
+                }, {
+                    key: "getLineLength",
+                    value: function getLineLength(point1, point2) {
+                        return Math.sqrt(Math.pow(point2.X - point1.X, 2) + Math.pow(point2.Y - point1.Y, 2));
+                    }
+                }, {
+                    key: "filterRating",
+                    value: function filterRating(kMainFactor, bMainFactor, dMainFactor) {
+                        if (this.tableArray != '') {
+                            //console.log('К: '+Math.floor(kMainFactor*100)+'% / Б: '+Math.floor(bMainFactor*100)+'% / Д: '+Math.floor(dMainFactor*100)+'%');
+                            var newArr = [];
+                            var newArrHidden = [];
+
+                            for (var key in this.tableArray) {
+                                this.tableArray[key] = this.tableArray[key];
+                                this.tableArray[key]['rating_price_new'] = this.tableArray[key]['rating_price'] * dMainFactor;
+                                this.tableArray[key]['rating_speed_new'] = this.tableArray[key]['rating_speed'] * bMainFactor;
+                                this.tableArray[key]['rating_quality_new'] = this.tableArray[key]['rating_quality'] * kMainFactor;
+                                var rating_real_priceEl = this.tableArray[key]['rating_real_price_verify_water_meters'];
+
+                                if (dMainFactor >= .8) {
+                                    if (rating_real_priceEl == 1) {
+                                        this.tableArray[key]['rating_price_new'] = this.tableArray[key]['rating_price_new'] + 0;
+                                    } else if (rating_real_priceEl == 2) {
+                                        this.tableArray[key]['rating_price_new'] = this.tableArray[key]['rating_price_new'] - 1;
+                                    } else {
+                                        this.tableArray[key]['rating_price_new'] = this.tableArray[key]['rating_price_new'] - 2;
+                                    }
+                                }
+
+                                this.tableArray[key]['rating_new'] = (this.tableArray[key]['rating_price_new'] + this.tableArray[key]['rating_speed_new'] + this.tableArray[key]['rating_quality_new']) / 3;
+                                if (this.tableArray[key]['review_total_number'] > 6) {
+                                    newArr.push({
+                                        id: this.tableArray[key]['id'],
+                                        rating_new: this.tableArray[key]['rating_new']
+                                    });
+                                } else {
+                                    newArrHidden.push({
+                                        id: this.tableArray[key]['id'],
+                                        rating_new: this.tableArray[key]['rating_new']
+                                    });
+                                }
+                            }
+
+                            newArr.sort(function (next, prev) {
+                                return prev.rating_new - next.rating_new;
+                            });
+                            /*newArrHidden.sort(function (next, prev) {
+                              return prev.rating_new - next.rating_new;
+                            });*/
+                            var newRatingHtml = '';
+
+                            for (var key2 in newArr) {
+                                newRatingHtml = newRatingHtml + this.getHtmlById(key2, newArr);
+                            }
+                            for (var key3 in newArrHidden) {
+                                newRatingHtml = newRatingHtml + this.getHtmlById(key3, newArrHidden);
+                            }
+
+
+                            dGlobal.tableBody.html(newRatingHtml); //setTimeout(function(){dGlobal.tableBody.html(newRatingHtml);},500);
+                            sendGoals('applyfilter');
+                            var webpImg = $('.webpImg');
+                            var _i = 0;
+                            for (_i = 0; _i < webpImg.length; _i++) {
+                                $(webpImg[_i]).attr('src', $(webpImg[_i]).attr('data-basicimg'));
+                            }
+                            setLeadBtnsClick();
+                        }
+                    }
+                }, {
+                    key: "lineCenter",
+                    value: function lineCenter(point1, point2) {
+                        var resultPoint = new Point(0, 0);
+                        resultPoint.X = (point1.X + point2.X) / 2;
+                        resultPoint.Y = (point1.Y + point2.Y) / 2;
+                        return resultPoint;
+                    }
+                }, {
+                    key: "cross",
+                    value: function cross(point1, point2, point3, point4) {
+                        var n;
+                        var dot = new Point(0, 0);
+
+                        if (point2.Y - point1.Y != 0) {
+                            var q = (point2.X - point1.X) / (point1.Y - point2.Y);
+                            var sn = point3.X - point4.X + (point3.Y - point4.Y) * q;
+
+                            if (sn == 0) {
+                                return [false, dot];
+                            }
+
+                            var fn = point3.X - point1.X + (point3.Y - point1.Y) * q;
+                            n = fn / sn;
+                        } else {
+                            if (point3.Y - point4.Y == 0) {
+                                return [false, dot];
+                            }
+
+                            n = (point3.Y - point1.Y) / (point3.Y - point4.Y);
+                        }
+
+                        dot.X = point3.X + (point4.X - point3.X) * n;
+                        dot.Y = point3.Y + (point4.Y - point3.Y) * n;
+                        return [true, dot];
+                    }
+                }, {
+                    key: "getHtmlById",
+                    value: function getHtmlById(id, newArr) {
+                        if (typeof id == 'undefined') return '';
+                        var element = this.tableArray[newArr[id]['id']];
+                        var halfOpacity = '';
+                        var noRate = false;
+                        if (element['review_total_number'] < 7) {
+                            halfOpacity = ' class="halfOpacity"';
+                            noRate = true;
+                        }
+                        var elementHtml = '<tr' + halfOpacity + '><td class="tbLogo"><a href="' + element['link'] + '"><img class="webpImg" loading="lazy" data-basicimg="' + element['logo'] + '" src="' + element['logowebp'] + '"  title="' + element['logoTitle'] + '" alt="' + element['logoAlt'] + '"></a></td><td class="tbName"><a href="' + element['link'] + '">' + element['name'] + '</a></td>';
+                        var ratingHtmlCode = '';
+                        var curRate = element['rating'];
+                        if (curRate >= 4) {
+                            ratingHtmlCode = 'green';
+                        } else if (curRate >= 3) {
+                            ratingHtmlCode = 'orange';
+                        } else {
+                            ratingHtmlCode = 'red';
+                        }
+
+                        curRate = this.getLimitRateStr(curRate);
+                        var rating_quality = this.getLimitRateStr(element['rating_quality']);
+                        var rating_speed = this.getLimitRateStr(element['rating_speed']);
+                        var rating_price = this.getLimitRateStr(element['rating_price']);
+                        if (!noRate) {
+                            elementHtml = elementHtml + '<td class="tbRate1 ' + ratingHtmlCode + '"><span>' + curRate + '</span></td>';
+                            elementHtml = elementHtml + '<td class="tbRate2">' + rating_quality + '</td>';
+                            elementHtml = elementHtml + '<td class="tbRate3">' + rating_speed + '</td>';
+                            elementHtml = elementHtml + '<td class="tbRate4">' + rating_price + '</td>';
+                        } else {
+                            elementHtml = elementHtml + '<td class="tbRate1 red noRate"><span>!</span></td>';
+                            elementHtml = elementHtml + '<td class="tbRate2">–</td>';
+                            elementHtml = elementHtml + '<td class="tbRate3">–</td>';
+                            elementHtml = elementHtml + '<td class="tbRate4">–</td>';
+                        }
+
+                        var price = element['verify_water_meters_price'];
+
+                        if (price != '' && price != 0) {
+                            elementHtml = elementHtml + '<td class="tbPrice1">' + (+price).toLocaleString() + '</td>';
+                        } else {
+                            elementHtml = elementHtml + '<td class="tbPrice1 noData">Нет данных</td>';
+                        }
+
+                        var real_price = element['verify_water_meters_real_price'];
+
+                        if (real_price != '' && real_price != 0) {
+                            elementHtml = elementHtml + '<td class="tbPrice2"><span></span>' + (+real_price).toLocaleString() + '</td>';
+                        } else {
+                            elementHtml = elementHtml + '<td class="tbPrice2 noData">Нет данных</td>';
+                        }
+
+                        var rating_real_price = element['rating_real_price_verify_water_meters'];
+
+                        if (rating_real_price == 1) {
+                            elementHtml = elementHtml + '<td class="tbPrice3 green"><b>Хорошо</b> Цена в отзывах соответсвует заявленной</td>';
+                        } else if (rating_real_price == 3) {
+                            elementHtml = elementHtml + '<td class="tbPrice3 red"><b>Осторожно</b> Конечная цена может отличаться!</td>';
+                        } else {
+                            elementHtml = elementHtml + '<td class="tbPrice3 orange"><b>Будьте внимательны</b> Как и всегда!</td>';
+                        }
+
+                        if (element['attestat'] == 1) {
+                            elementHtml = elementHtml + '<td class="tbAttest green">Есть</td>';
+                        } else {
+                            elementHtml = elementHtml + '<td class="tbAttest red">Не обнаружен</td>';
+                        }
+
+                        if (element['arshinVerifyDate'] != '') {
+                            elementHtml = elementHtml + '<td class="tbDate">' + element['arshinVerifyDate'] + '</td>';
+                        } else {
+                            elementHtml = elementHtml + '<td class="tbDate red">Нет данных</td>';
+                        }
+
+                        elementHtml = elementHtml + '<td class="tbReview"><span>' + element['review_total_number'] + '</span></td><td class="tbRequestCount">' + (+element['leads_counter']).toLocaleString() + '</td>';
+                        elementHtml = elementHtml + '<td class="tbRequest"><span class="btncolor leadFormBtn notSet" data-service="verify_water_meters" data-id="' + element['id'] + '">Заказать поверку</span></td>';
+                        elementHtml = elementHtml + '</tr>';
+                        return elementHtml;
+                    }
+                }, {
+                    key: "getLimitRateStr",
+                    value: function getLimitRateStr(str) {
+                        str = str.replace('.', ',');
+                        str = str.substring(0, 3);
+                        return str;
+                    }
+                }]);
+
+                return DragElement;
+            }();
+
+            var drg = new DragElement(".dragContainer", false);
+            $('.dragLine').click(function () {
+                $('#draggable').css('transition', '.3s');
+
+                if ($(this).hasClass('speedDragLine')) {
+                    drg.updateCounterStatus({
+                        type: 'dragstop',
+                        point0: drg.centerB
+                    });
+                } else if ($(this).hasClass('priceDragLine')) {
+                    drg.updateCounterStatus({
+                        type: 'dragstop',
+                        point0: drg.centerD
+                    });
+                } else if ($(this).hasClass('qualityDragLine')) {
+                    drg.updateCounterStatus({
+                        type: 'dragstop',
+                        point0: drg.centerK
+                    });
+                }
+
+                setTimeout(function () {
+                    $('#draggable').css('transition', '0s');
+                }, 300);
+            }); //drg.setXY(drg.centerK);
+            //drg.updateCounterStatus({type:'dragstop',point0:new Point(250,250)});
+            //console.log(drg.containerWidth);
+        });
+    </script>
+</body>
+
+</html>
